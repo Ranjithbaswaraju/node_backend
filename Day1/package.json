@@ -1,0 +1,13 @@
+{
+  "name": "intro_node",
+  "version": "1.0.0",
+  "description": "\"this node introduction\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":"node server.js",
+    "ranjith":"node server.js"
+  },
+  "author": "\"ranjith\"",
+  "license": "ISC"
+}
