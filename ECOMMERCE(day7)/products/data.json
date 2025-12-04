@@ -1,0 +1,35 @@
+[
+  { "id": "1", "name": "Bike", "description": "Electronics", "price": "100" },
+  {
+    "id": "2",
+    "name": "ranjith",
+    "description": "Fruits",
+    "price": 30,
+    "category": "vegetable"
+  },
+  { "id": "3", "name": "TV ", "description": "Electronics", "price": "300" },
+  {
+    "name": "apple",
+    "category": "vegetable",
+    "price": 30,
+    "id": "8da5d229-5f62-48d8-91f0-55a5dd426121"
+  },
+  {
+    "name": "apple",
+    "category": "vegetable",
+    "price": 30,
+    "id": "33ee4f5e-8bd7-4afa-8457-77ef0e647630"
+  },
+  {
+    "name": "apple",
+    "category": "vegetable",
+    "price": 30,
+    "id": "a958bea7-d6da-42fd-b431-1dacef6475ef"
+  },
+  {
+    "name": "apple1",
+    "category": "vegetable",
+    "price": 30,
+    "id": "1ee54a30-045c-4278-8d71-49bd965c053a"
+  }
+]
