@@ -125,19 +125,80 @@
 
 // ile Reading using Promises
 
-const fs=require('fs/promises')
+// const fs=require('fs/promises')
 
-async function read(){
-    try{
-        console.log('file Reading Started');
-        const a=await fs.readFile('./ironman.txt','utf-8',()=>{
-        console.log(a)
-            console.log('file Reading Ended')
+// async function read(){
+//     try{
+//         console.log('file Reading Started');
+//         const a=await fs.readFile('./ironman.txt','utf-8',()=>{
+//         console.log(a)
+//             console.log('file Reading Ended')
            
-        })
-    }
-    catch(err){
-        console.log(err)
-    }
-}
-read()
+//         })
+//     }
+//     catch(err){
+//         console.log(err)
+//     }
+// }
+// read()
+
+
+const fs=require('fs')
+
+// fs.readFile('./ironman.txt',(err,data)=>{
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data.toString())
+//     }
+// })
+
+// const read=fs.readFileSync("./ironman.txt",'utf-8')
+// console.log(read)
+
+// const write=fs.writeFileSync("./ironman.txt","hello1111")
+// console.log(write)
+
+
+// fs.writeFile("./ironman.txt","hellovye",(err,data)=>{
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// })
+
+// fs.appendFile("./ironman.txt","ranjith",(err,data)=>{
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// })
+
+// const append=fs.appendFileSync("./ironman.txt","baswaraju")
+// console.log(append)
+
+// fs.appendFile("./ranjith.txt","bye",(err,data)=>{
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// })
+
+// fs.unlink('./ranjith.txt',(err,data)=>{
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// })
+
+const a=fs.existsSync("./ironman.txt")
+console.log(a)
