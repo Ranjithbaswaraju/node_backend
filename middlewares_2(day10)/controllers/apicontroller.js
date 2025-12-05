@@ -31,8 +31,13 @@ const data = [
   },
 ];
 
-const getProducts = (req, res) => {
-  return res.status(200).json(data);
-};
 
-module.exports = { getProducts };
+const getProducts=(req,res)=>{
+  return res.status(200).json(data)
+}
+module.exports={getProducts}
+
+
+
+
+
