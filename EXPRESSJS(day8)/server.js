@@ -112,21 +112,55 @@
 //     console.log(`listening on port ${port}`)
 // })
 
-//Getting data from the body
+//Getting data from the body of the request
 
-const express=require('express')
+// const express=require('express')
+// const port=3000
+// const app=express()
+// app.use(express.json())
+// app.use(express.urlencoded())//form data
+
+
+// app.post('/books',(req,res)=>{
+//     console.log(req.body)
+//     res.json({message:'I am post method',
+//         data:req.body,
+//         params:req.query.price
+//     })
+// })
+
+// app.listen(port,()=>{
+//     console.log(`listening on port ${port}`)
+// })
+
+
+const express=require('express');
 const port=3000
 const app=express()
-app.use(express.json())
-app.use(express.urlencoded())//form data
 
+app.get("/",(req,res)=>{
+    res.send("i am get method")
+})
 
-app.post('/books',(req,res)=>{
-    console.log(req.body)
-    res.json({message:'I am post method',
-        data:req.body,
-        params:req.query.price
+app.post("/",(req,res)=>{
+    res.status(200).json({
+        method:"POST",
+        apiname:"/"
     })
+})
+
+app.put("/",(req,res)=>{
+    res.status(201).send("i am put method")
+})
+
+app.patch("/",(req,res)=>{
+    res.status(401).json({
+        message:"i am patch method",
+    })
+})
+
+app.delete("/",(req,res)=>{
+    res.status(404).send("i am delete method")
 })
 
 app.listen(port,()=>{
