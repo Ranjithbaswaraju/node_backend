@@ -3,7 +3,7 @@
 // function getRecipes(){
 //     return "Hello World"
 // }
-// module.exports={recipes,getRecipes}4
+// module.exports={recipes,getRecipes}
 
 
 
@@ -13,10 +13,13 @@
 
 
 // ES6 Modules
-function name(){
-    return "hello world"
-}
-export default name;
+// function name(){
+//     return "hello world"
+// }
+// export default name;
+
+
+
 
 
 

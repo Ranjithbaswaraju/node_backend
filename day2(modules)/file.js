@@ -21,4 +21,3 @@
 // }
 // exports.data=dummy
 
-export var a=10
