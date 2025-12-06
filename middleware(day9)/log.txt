@@ -1,1 +1,1 @@
-{"method":"POST","pathname":"/products"}{"method":"GET","pathname":"/ranjith"}{"method":"GET","pathname":"/ranjith"}{"method":"GET","pathname":"/ranjith"}{"method":"GET","pathname":"/add"}{"method":"POST","pathname":"/add"}
+{"method":"POST","pathname":"/add"}{"method":"GET","pathname":"/addUrl"}{"method":"GET","pathname":"/add"}{"method":"POST","pathname":"/add"}{"method":"POST","pathname":"/add/1"}

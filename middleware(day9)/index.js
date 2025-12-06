@@ -26,9 +26,9 @@ app.post("/add",(req,res)=>{
 })
 
 //custom middle ware
-app.use((req,res)=>{
-    res.send("Api not found")
-})
+// app.use((req,res)=>{
+//     res.send("Api not found")
+// })
 
 app.listen(port,()=>{
     console.log(`server is running on port ${port}`)
