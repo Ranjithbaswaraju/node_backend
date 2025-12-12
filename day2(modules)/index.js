@@ -29,11 +29,11 @@ const axios=require('axios')
 const server=http.createServer((req,res)=>{
     axios.get('https://fakestoreapi.com/products')
     .then((response)=>{
-        res.write(JSON.stringify(response.data))//console.log(response.data)
+        res.write(JSON.stringify(response.data))
         res.end()
     })
 })
 
 server.listen(port,()=>{
-    console.log('server started')
+    console.log(`server running at ${port}`)
 })
