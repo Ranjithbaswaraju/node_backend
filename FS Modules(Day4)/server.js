@@ -1,7 +1,6 @@
 // const fileSystem=require('fs')
 // console.log(fileSystem)
 
-
 //Asynchronous File Reading
 // console.log('Exection Satred')
 // fileSystem.readFile('./hello.txt',(err,data)=>{
@@ -14,7 +13,7 @@
 // })
 // console.log("Execution Ended")
 
-// Synchronous File Reading
+//------> Synchronous File Reading
 
 // console.log("File Reading Started");
 // let fileSystem=require('fs');
@@ -23,10 +22,10 @@
 // console.log('File Reading Ended')
 
 
-// WRTTING TEXT INTO A FILE iron max USING ASYNCHRONOUS WAY
+// WRITING TEXT INTO A FILE  max USING ASYNCHRONOUS WAY
 // const a={name:'ranjith'}
 // const fs=require('fs')
-// fs.writeFile('./ironman.txt',JSON.stringify(a),(err,data)=>{
+// fs.writeFile('./txt.txt',JSON.stringify(a),(err,data)=>{
 //     console.log('data inserted Sucesffuly')
 // })
 //WRITING TEXT INTO FILE USING SYNCHRONOUS WAY
@@ -34,20 +33,22 @@
 // const fs=require('fs')
 // fs.writeFileSync('./ironman.txt','Bye')
 // console.log('data inserted Sucesffuly')
-// Appending text into a file using synchronous Way
+
+
+// ------->Appending text into a file using synchronous Way
 
 // const fs=require('fs')
 // const a=fs.appendFileSync('./ironman.txt','hello111')
 // console.log(a)
 
-// Appending text into a file using Asynchronous Way
+// ------->Appending text into a file using Asynchronous Way
 
 // const fs=require('fs')
 // fs.appendFile('./ironman.txt','hello',(err)=>{
 //     console.log('data inserted Sucesffuly')
 // })
 
-// creating a Folder Asynchronous Way
+// ------->creating a Folder Asynchronous Way
 
 // const fs=require('fs')
 // fs.mkdir("./Day4",(err,data)=>{
@@ -59,13 +60,14 @@
 //     }
 // })
 
-// creating a folder synchronously
+// ------>creating a folder synchronously
 // const fs=require('fs')
 // fs.mkdirSync("./Day4")
 // console.log('folder created successfully')
 
-// creating a folder and insdie that creating a file at a time
 
+
+// ----->creating a folder and insdie that creating a file at a time
 // const fs=require('fs')
 // fs.mkdir("./Day6",(err,data)=>{
 //     if(err){
@@ -78,9 +80,7 @@
 //         })
 //     }
 // })
-
-//Delete a Folder
-
+//----->Delete a Folder
 // const fs=require('fs')
 // fs.rmdir('../Day6',(err,data)=>{
 //     if(err){
@@ -92,8 +92,7 @@
 //     }
 // })
 
-// Deleting a File
-
+// ----->Deleting a File
 // const fs=require('fs')
 // fs.unlink('./bye.txt',(err,data)=>{
 //     if(err){
@@ -105,13 +104,13 @@
 //     }
 // })
 
-// Checking file wherather file is exists or not
+//-----> Checking file wheather file is exists or not
 
 // const fs=require('fs');
 // const a=fs.existsSync('./ironman.txt')
 // console.log(a)
 
-// Checking multple folders at a time
+// ---->Checking multple folders at a time
 
 // const fs=require('fs')
 // fs.readdir('./',(err,data)=>{
@@ -123,7 +122,7 @@
 //     }
 // })
 
-// ile Reading using Promises
+// --->File Reading using Promises
 
 const fs=require('fs/promises')
 
